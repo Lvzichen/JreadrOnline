@@ -6,11 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".JreaderActivity">
-    <com.youth.banner.Banner
-        android:id="@+id/banner"
-        android:layout_width="wrap_content"
-        android:layout_height="180dp">
-    </com.youth.banner.Banner>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp">
