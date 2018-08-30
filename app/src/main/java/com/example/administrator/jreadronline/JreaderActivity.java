@@ -30,7 +30,6 @@ public class JreaderActivity extends AppCompatActivity implements View.OnClickLi
     private WordFragment wordFragment;
     private List<Fragment> list = new ArrayList<Fragment>();
     private FragmentAdatper adatper;
-    private Banner banner;
     String[] titles = new String[]{"书籍","面试题目","我的","关于"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +61,7 @@ public class JreaderActivity extends AppCompatActivity implements View.OnClickLi
         });
     }
     private void initView() {
+        //页面滑动
         title = findViewById(R.id.jreader_title);
         bookTv = findViewById(R.id.item_book);
         faceTv = findViewById(R.id.item_face);
